@@ -1,6 +1,6 @@
 #!/bin/sh
 
-freshclam -d &
+freshclam -d -c 2 &
 clamd &
 
 pids=`jobs -p`
