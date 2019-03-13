@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "Running freshclam"
-freshclam --quiet
-
 echo "Starting freshclam and clamd"
 freshclam -d -c 2 &
 clamd &
